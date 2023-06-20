@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import { Task } from 'src/app/Task';
 
 @Component({
@@ -13,4 +14,5 @@ export class TaskItemComponent {
     day: '',
     reminder: false,
   };
+  faTimes = faTimes;
 }
