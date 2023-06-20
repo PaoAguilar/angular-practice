@@ -29,3 +29,7 @@ npm run server
 ```
 ng build
 ```
+
+### Notes
+
+- The http client returns an observable automatically so we don't need to add de "Observable of" from rxjs
